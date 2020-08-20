@@ -1,5 +1,6 @@
 package com.dotcms;
 
+import com.dotcms.concurrent.scheduler.DotSchedulerImplTest;
 import com.dotcms.content.elasticsearch.business.ESContentletAPIImplTest;
 import com.dotcms.content.elasticsearch.business.ElasticsearchUtilTest;
 import com.dotcms.content.elasticsearch.business.ESReadOnlyMonitorTest;
@@ -312,7 +313,8 @@ import org.junit.runners.Suite.SuiteClasses;
         EMAWebInterceptorTest.class,
         GoogleTranslationServiceIntegrationTest.class,
         Task53700AddAppsPortletToLayoutTest.class,
-        FolderFactoryImplTest.class
+        FolderFactoryImplTest.class,
+        DotSchedulerImplTest.class
 })
 public class MainSuite {
 
